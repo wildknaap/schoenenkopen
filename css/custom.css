@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* Custom CSS */
+
+body {
+  padding-top: 86px;
+}
+
+.shoe-photo {
+	box-sizing: border-box;
+	padding: 10px;
+}
