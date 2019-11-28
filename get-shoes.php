@@ -1,8 +1,8 @@
 <?php
-	$hostname = getenv("dbhostname");
-	$dbname = getenv("dbname");
-	$username = getenv("dbusername");
-	$password = getenv("dbpassword");
+	$hostname = getenv("3460-db.mysql.database.azure.com");
+	$dbname = getenv("schoenenkopen");
+	$username = getenv("pablo@3460-db");
+	$password = getenv("00trueisgek!");
 
 	try {
 		$conn = new PDO("mysql:host=$hostname;dbname=$dbname", $username, $password);
